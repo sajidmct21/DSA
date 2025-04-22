@@ -50,3 +50,33 @@ let arr = [10, 20, 20, 30, 40, 50, 50];
 //     return acc;
 // },[])
 // console.log(res);
+
+
+let obj ={
+    name:"Sajid",
+    age:25,
+    job_title:"Quality Control Engineer",
+    place:"KSA"
+}
+
+let o = Object.entries(obj).map((e)=>e[1])
+console.log(o);
+
+// let arr3 = Object.entries(obj).map((value)=>value[0])
+// console.log(arr3);
+
+// let a = [];
+// for(let key in obj){
+//     a.push(obj[key])
+// }
+// console.log(a);
+// let arr1 = Object.values(obj)
+// for(let key in obj){
+//     console.log(`${key}: ${obj[key]}`);
+// }
+// console.log(arr1);
+// let arr2 = Object.keys(obj)
+// console.log(arr2);
+
+
+
